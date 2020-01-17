@@ -1,0 +1,4 @@
+m4trace:/usr/share/aclocal/ax_require_defined.m4:35: -1- AC_DEFUN([AX_REQUIRE_DEFINED], [dnl
+  m4_ifndef([$1], [m4_fatal([macro ]$1[ is not defined; is a m4 file missing?])])
+])
+m4trace:/usr/share/aclocal/m4-ax_cxx_compile_stdcxx_11.m4:38: -1- AX_REQUIRE_DEFINED([AX_CXX_COMPILE_STDCXX])
